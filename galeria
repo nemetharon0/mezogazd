@@ -1,0 +1,222 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu-hu" lang="hu-hu" >
+
+<head>
+	<title>Galéria</title>
+	<meta name="description" content="Németh Mezőgazdasági Bolt" />
+	<meta name="robots" content="index, follow" />
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="css/script.js"></script>
+</head>
+<body>
+
+  <div id="foresz">
+  
+	<div id="elofej">
+      <div id="logo">
+        <div id="logo_szoveg">
+          <h1><a href="index.html"><span class="logo_szovegszin">Németh </span>Mezőgazdasági Bolt</a></h1>
+          <h2>9400	 Sopron, Pozsonyi út 18.</h2>
+        </div>
+      </div>
+      <div id="menusor">
+        <ul id="menu">
+          <li><a href="index.html">Kezdőlap</a></li>
+          <li><a href="#">Termékeink</a></li>
+          <li><a href="#">Cikkek</a></li>
+          <li class="selected"><a href="galeria.html">Galéria</a></li>
+          <li><a href="kapcsolat.html">Kapcsolat</a></li>
+        </ul>
+      </div>  
+    </div>
+	
+	
+<hr>
+
+
+
+<div class="galeriatabla">
+<center>
+<a class="cimgaleria">Képgaléria</a><br><br>
+</center>
+</div>
+<table width=100%>
+
+<tr>
+<td><div class="galeria"><img src="css/kepek/k1.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(1)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k2.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(2)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k3.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(3)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k4.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(4)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k5.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(5)"></td></div>
+</tr>
+
+<tr>
+<td><div class="galeria"><img src="css/kepek/k6.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(6)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k7.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(7)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k8.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(8)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k9.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(9)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k10.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(10)"></td></div>
+</tr>
+
+
+<tr>
+<td><div class="galeria"><img src="css/kepek/k11.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(11)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k1.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(1)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k2.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(2)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k3.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(3)"></td></div>
+<td><div class="galeria"><img src="css/kepek/k4.jpg" width="300" height="200" onclick="lightboxMegnyit();leptet(4)"></td></div>
+</tr>
+
+
+
+</div>
+</table>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+<div id="Lightbox" class="mod">
+
+  <a class="bezar" onclick="lightboxBezar()"></a>
+  
+  <div class="tart"> <!-- Egész sáv Lightbox -->
+    <div class="elonez">
+        <img src="css/kepek/k1.jpg" class="kep-elonez"/>
+    </div>
+    <div class="elonez">
+        <img src="css/kepek/k2.jpg" class="kep-elonez"/>
+    </div>    
+    <div class="elonez">
+        <img src="css/kepek/k3.jpg" class="kep-elonez"/>
+    </div>
+		<div class="elonez">
+        <img src="css/kepek/k4.jpg" class="kep-elonez"/>
+    </div>
+		<div class="elonez">
+        <img src="css/kepek/k5.jpg" class="kep-elonez"/>
+    </div>
+		<div class="elonez">
+        <img src="css/kepek/k6.jpg" class="kep-elonez"/>
+    </div>
+    <div class="elonez">
+        <img src="css/kepek/k7.jpg" class="kep-elonez"/>
+    </div>    
+    <div class="elonez">
+        <img src="css/kepek/k8.jpg" class="kep-elonez"/>
+    </div>
+		<div class="elonez">
+        <img src="css/kepek/k9.jpg" class="kep-elonez"/>
+    </div>
+		<div class="elonez">
+        <img src="css/kepek/k10.jpg" class="kep-elonez"/>
+    </div>
+		<div class="elonez">
+        <img src="css/kepek/k11.jpg" class="kep-elonez"/>
+    </div>
+    <div class="elonez">
+        <img src="css/kepek/k1.jpg" class="kep-elonez"/>
+    </div>    
+    <div class="elonez">
+        <img src="css/kepek/k2.jpg" class="kep-elonez"/>
+    </div>
+		<div class="elonez">
+        <img src="css/kepek/k3.jpg" class="kep-elonez"/>
+    </div>
+		<div class="elonez">
+        <img src="css/kepek/k4.jpg" class="kep-elonez"/>
+    </div>
+
+
+
+
+    <a class="elozo" onclick="tovabb(-1)">&#10094;</a>
+    <a class="kovetkezo" onclick="tovabb(1)">&#10095;</a>
+  
+	
+	
+	
+	
+	
+	
+   <div class="lepegeto"> <!-- Alsó sáv Lightbox -->
+    <div class="oszlop">
+        <img src="css/kepek/k1.jpg" class="mod-nezet" onclick="leptet(1)" />
+    </div>
+    <div class="oszlop">	
+        <img src="css/kepek/k2.jpg" class="mod-nezet" onclick="leptet(2)" />
+    </div>
+    <div class="oszlop">
+        <img src="css/kepek/k3.jpg" class="mod-nezet" onclick="leptet(3)"/>
+    </div>
+	  <div class="oszlop">
+        <img src="css/kepek/k4.jpg" class="mod-nezet" onclick="leptet(4)"/>
+    </div>
+	  <div class="oszlop">
+        <img src="css/kepek/k5.jpg" class="mod-nezet" onclick="leptet(5)"/>
+      </div>
+			</div>
+		<div class="lepegeto">
+		<div class="oszlop">
+        <img src="css/kepek/k6.jpg" class="mod-nezet" onclick="leptet(6)" />
+    </div>
+    <div class="oszlop">	
+        <img src="css/kepek/k7.jpg" class="mod-nezet" onclick="leptet(7)" />
+    </div>
+    <div class="oszlop">
+        <img src="css/kepek/k8.jpg" class="mod-nezet" onclick="leptet(8)"/>
+    </div>
+	  <div class="oszlop">
+        <img src="css/kepek/k9.jpg" class="mod-nezet" onclick="leptet(9)"/>
+    </div>
+	  <div class="oszlop">
+        <img src="css/kepek/k10.jpg" class="mod-nezet" onclick="leptet(10)"/>
+      </div>
+			</div>
+			<div class="lepegeto">
+		<div class="oszlop">
+        <img src="css/kepek/k11.jpg" class="mod-nezet" onclick="leptet(11)" />
+    </div>
+    <div class="oszlop">	
+        <img src="css/kepek/k1.jpg" class="mod-nezet" onclick="leptet(1)" />
+    </div>
+    <div class="oszlop">
+        <img src="css/kepek/k2.jpg" class="mod-nezet" onclick="leptet(2)"/>
+    </div>
+	  <div class="oszlop">
+        <img src="css/kepek/k3.jpg" class="mod-nezet" onclick="leptet(3)"/>
+    </div>
+	  <div class="oszlop">
+        <img src="css/kepek/k4.jpg" class="mod-nezet" onclick="leptet(4)"/>
+      </div>
+   </div>
+	
+  </div>
+</div>
+
+
+	<hr>
+	
+	
+
+    <div id="elolab">
+      <p><a href="index.html">Kezdőlap</a> | <a href="#">Termékeink</a> | <a href="#">Cikkek</a> | <a href="#">Galéria</a> | <a href="#">Kapcsolat</a></p>
+      <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Németh Mezőgazdasági Bolt | Minden Jog fenntartva | <a href="#">Felhasználási Feltételek</a></a></p>
+    </div>
+</body>
+</html>
